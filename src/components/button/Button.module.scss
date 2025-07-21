@@ -12,6 +12,11 @@
     color: white;
     text-decoration: none;
   }
+  &:disabled {
+    background-color: #999;
+    color: #fff;
+    cursor: not-allowed;
+  }
 }
 // smaller component size for mobile devices
 @media (max-width: 768px) {
