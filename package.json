@@ -1,6 +1,7 @@
 {
   "name": "auth-implementation",
   "version": "0.1.0",
+  "author": "ha.abasi@gmail.com",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",

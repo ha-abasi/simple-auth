@@ -1,0 +1,22 @@
+.button {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 7px 13px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #3e8e41;
+    color: white;
+    text-decoration: none;
+  }
+}
+// smaller component size for mobile devices
+@media (max-width: 768px) {
+  .button {
+    font-size: smaller;
+    padding: 5px 10px;
+  }
+}
