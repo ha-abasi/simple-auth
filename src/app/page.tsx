@@ -11,7 +11,7 @@ export default function Home() {
       <h1>Welcome to the Auth App!</h1>
       <h5>Please click on the following link to proceed to the authentication page.</h5>
 
-      <Button onClick={() => { window.location.href = "/auth"; }}>Go To Authentication Page</Button>
+      <Button enabled={true} onClick={() => { window.location.href = "/auth"; }}>Go To Authentication Page</Button>
     </div>
   );
 }
