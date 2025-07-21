@@ -1,0 +1,24 @@
+.page {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eee;
+    color: #333;
+    font-size: 2rem;
+}
+@media (max-width: 768px) {
+    .loading{
+         font-size: 1.0rem;
+    }
+}
+

@@ -1,1 +1,14 @@
-.page {}
+.page {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px #ccc;
+}
+
+@media (max-width: 768px) {
+    .page {
+
+    }
+}
